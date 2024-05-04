@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Outfit",'sans-serif';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+html{
+  font-size: 17.5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+body{
+    background-color: #28161C;
+}
+
+
+:root{
+  --body-text : 1rem;
+  --bigger-text : 1.2rem;
+  --heading-3 : 1.618rem;
+  --heading-2 : 2.618rem;
+  --heading-1 : 4.236rem;
+}
+
+
+.main{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #000;
+    position: relative;
+}
+
+h1,h2,h3,h4,a,p{
+    color: #fff;
+}
+
+.btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(248, 217, 15);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .btn-light {
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: transparent;
+    color: #fff;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
   }
-}

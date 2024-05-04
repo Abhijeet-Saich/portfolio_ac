@@ -1,0 +1,56 @@
+
+.p-c-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.p-c-container{
+    /* border: 1px solid yellowgreen; */
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap  : 40px;
+    padding:5rem  0 5rem 0;
+}
+
+.p-c-card{
+    background-color: #141414;
+}
+
+.p-c-card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.p-heading{
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.p-detail{
+    font-size: 1.1rem;
+    padding: 0 .2rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+.p-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.p-btn{
+    padding: 0.5rem;
+}
+
+
+@media screen and (max-width : 740px) {
+    .p-c-container{
+        max-width: 90%;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    
+}

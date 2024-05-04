@@ -1,0 +1,23 @@
+
+.form label{
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 5rem 1rem;
+    margin: auto;
+}
+
+.form form input,.form form textarea{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.1) ;
+    color: #f4f4f4;
+}
+
