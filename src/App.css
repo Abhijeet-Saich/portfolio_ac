@@ -52,13 +52,13 @@ h1,h2,h3,h4,a,p{
     cursor: pointer;
   }
 
-  .btn-light {
+.btn-light {
     /* background: rgba(255, 255, 255, 0.2); */
     background: transparent;
     color: #fff;
   }
   
-  .btn:hover {
+.btn:hover {
     background: rgba(255, 255, 255, 0.2);
     color: #fff;
     transition: 0.3s;
