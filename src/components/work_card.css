@@ -20,6 +20,7 @@
 
 .p-c-card img{
     width: 100%;
+    height: 220px;
     object-fit: cover;
 }
 
@@ -45,6 +46,15 @@
     padding: 0.5rem;
 }
 
+
+@media screen and (max-width : 1200px) {
+    .p-c-container{
+        max-width: 90%;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+    }
+    
+}
 
 @media screen and (max-width : 740px) {
     .p-c-container{

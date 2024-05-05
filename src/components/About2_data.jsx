@@ -24,7 +24,7 @@ const About2_data = () => {
                 <div className='about-box'>
                     <FiAward className="about-icon" />
                     <h3>Experience</h3>
-                    <span>2+ years working</span>
+                    <span>2+ years coding</span>
                 </div>
                 <div className='about-box'>
                     <TbBriefcase2 className="about-icon" />
@@ -43,7 +43,7 @@ const About2_data = () => {
                 maxime quaerat nemo labore esse rem quidem 
             </p>
             <Link>
-                <button className='btn'>
+                <button className='btn cv-btn'>
                     <span>CV</span>
                     <IoDocumentTextOutline size={20}/>
                 </button>

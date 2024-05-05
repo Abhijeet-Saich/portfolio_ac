@@ -1,18 +1,37 @@
+import p1 from '../assets/project_images/p1.png';
+import p2 from '../assets/project_images/p2.png';
+import p3 from '../assets/project_images/p3.png';
+import p4 from '../assets/project_images/p4.png';
+
+
 const porjectData = [
     {
-        name : "Project 1",
-        img_url : "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name : "Cryto-App",
+        img_url : p1,
         detail : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione modi excepturi assumenda autem quas consequuntur ut facere sit distinctio quo commodi laborum a perferendis facilis, officia itaque sequi, voluptas voluptate.",
+        url : "https://urchin-app-w3ydg.ondigitalocean.app/",
+        source : "https://github.com/Abhijeet-Saich/crypto_app",
     },
     {
-        name : "Project 1",
-        img_url : "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name : "Quiz App",
+        img_url : p2,
         detail : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione modi excepturi assumenda autem quas consequuntur ut facere sit distinctio quo commodi laborum a perferendis facilis, officia itaque sequi, voluptas voluptate.",
+        url : "https://quiz-app-y3k2e.ondigitalocean.app/",
+        source : "https://github.com/Abhijeet-Saich/quiz_app",
     },
     {
-        name : "Project 1",
-        img_url : "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name : "Gen. Portfolio",
+        img_url : p3,
         detail : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione modi excepturi assumenda autem quas consequuntur ut facere sit distinctio quo commodi laborum a perferendis facilis, officia itaque sequi, voluptas voluptate.",
+        url : "https://jellyfish-app-gsi2c.ondigitalocean.app/",
+        source : "https://github.com/Abhijeet-Saich/generic_portfolio",
+    },
+    {
+        name : "ToDo Extension",
+        img_url : p4,
+        detail : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione modi excepturi assumenda autem quas consequuntur ut facere sit distinctio quo commodi laborum a perferendis facilis, officia itaque sequi, voluptas voluptate.",
+        url : "",
+        source : "https://github.com/Abhijeet-Saich/ToDo.ext",
     },
 ]
 
